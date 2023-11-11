@@ -1,0 +1,137 @@
+/*Agregar estilo al body*/
+>body{
+    background-color: blanchedalmond;
+    color: rgb(209, 107, 209);
+
+;}
+p{
+    color: aquamarine;
+}
+
+/*Selectores de clase. inician con un punto(.)*/
+.lista-de-gatos{
+color: aquamarine;
+
+}
+/*Selectores CSS. selectores de tipo. tamaño de fuente*/
+h2{
+    font-size: 30px;
+    /*ejemplo de familias tipograficas*/
+    font-family: Verdana;
+}
+/*tamaño de fuente*/
+h3{
+    font-size: 25px;
+}
+
+/*ejemplo de google fonts*/
+h1{
+    font-family:"roboto", sans-serif;
+}
+
+/*TAMAÑO DE FUENTE*/
+/*ejemplo de aplicar el mismo estilo a diferentes elemento*/
+p,
+ul,
+ol{
+    font-size: 20px;
+
+}
+/*ejemplo de ampliar mas de una propiedad a un elemento*/
+/*li{
+    color:blue;
+    font-size:15px;
+}*
+/*
+
+img{
+    <!--propiedad width=ancho-->
+    whit:200px;
+}
+*/
+
+/*ejemplo de apilcar propiedades a diferentes img. creamos una calse llamada imagen-de-gatos*/
+
+.imagen-de-gatos{
+    width: 200px; 
+
+/*añade bordes al rededor de un elemento, en este caso, una imagen*/
+border-style: dotted ridge double groove;
+
+}
+
+/*hacer esquinas redondas*/
+/*
+.bordes-redondos{
+    bordes-radius:50px;
+}
+*/
+
+/*hacer imagenes redondas*/
+.bordes-redondos{
+    border-radius: 10%;
+}
+
+/*color de fondo de un div*/
+
+div{
+    background-color: bisque;
+}
+/*atributo id en css. se usa in '#'.*/
+#titulo-app-gatos{
+    font-size: 30px;
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*ejemplo de uso de id en imagenes*/
+#imagen-de-lasagna{
+    width: 300px;
+    border-radius: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+#lista-gatos-aman{
+    font-size: 18px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*PADDING: DISTACIA ENTRE EL BORDE Y EL CONTENIDO HTML, EN ESTE CASO, ES LA IMAGEN*/
+#imagen-con-padding { 
+    width: 300px;
+    /*padding:20px;*/
+    background-color: rgb(255, 0, 191);
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+
+    /*PADDING A CADA LADO*/
+    /*
+    padding-top:30px;
+    padding-right:25px;
+    paddimg-bootom:40px;
+    padding-left:50px;
+    */
+
+    /*PADDING A UNA LINEA. se acomodan en el sentido de las agujas de reloj*/
+    padding: 30px 25px 40px 50px;
+}
+
+/*SELECTORES DE ATRIBUTO*/
+img[alt] {
+    border-radius: 50px;
+}
+
+[type= "radio"]{
+    margin: 10px;
+}
+
+a[href= "https://tecnolochicas.mx/"]{
+    color: blueviolet;
+text-decoration: none;
+font-weight: bold;
+}
